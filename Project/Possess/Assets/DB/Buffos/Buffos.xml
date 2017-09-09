@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<buffos>
+  <buffo nombre="MOVIMIENTO">
+    <atributo>MOVIMIENTO</atributo>
+    <modo>MULTIPLICADOR</modo>
+    <descripcion>multiplica el movimiento por la cantidad determinada por el poder del buffo</descripcion>
+  </buffo>
+</buffos>

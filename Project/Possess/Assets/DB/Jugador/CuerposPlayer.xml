@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cuerposPlayer>
+  <cuerpo nombre="BASICO">
+    
+    <nivel> 1 </nivel>
+    <mod_vida> 10 </mod_vida>
+    <mod_mana> 1 </mod_mana>
+    <velocidad_movimiento> 0.02 </velocidad_movimiento>
+    
+    <ataque_normal tipo="MELEE">
+      <rapido arco="BASICO">
+        <damage> 3.0 </damage>
+        <variacion> 2.0 </variacion>
+        <velocidad> 1.0 </velocidad>
+      </rapido>
+      <lento arco="BASICO">
+        <damage> 4.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 1.6 </velocidad>
+      </lento>
+    </ataque_normal>
+    
+    <ataque_especial tipo="MELEE" mana="2" cooldown="0">
+      <rapido arco="BASICO">
+        <damage> 4.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 0.8 </velocidad>
+      </rapido>
+    </ataque_especial>
+  
+  </cuerpo>
+
+  
+<!-- _______________________________________________________________________________________ -->
+  <cuerpo nombre="ROGUE_01">
+
+    <nivel> 1 </nivel>
+    <mod_vida> 10 </mod_vida>
+    <mod_mana> 1 </mod_mana>
+    <velocidad_movimiento> 0.02 </velocidad_movimiento>
+
+    <ataque_normal tipo="MELEE">
+      <rapido arco="BASICO">
+        <damage> 3.0 </damage>
+        <variacion> 2.0 </variacion>
+        <velocidad> 1.0 </velocidad>
+      </rapido>
+      <lento arco="BASICO">
+        <damage> 4.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 1.6 </velocidad>
+      </lento>
+    </ataque_normal>
+
+    <ataque_especial tipo="RANGED" mana="2" cooldown="0">
+      <rapido proyectil="FLECHA" velocidad="1">
+        <damage> 4.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 0.8 </velocidad>
+      </rapido>
+    </ataque_especial>
+
+  </cuerpo>
+  
+  
+<!-- _______________________________________________________________________________________ -->
+  <cuerpo nombre="CLERIC_01">
+
+    <nivel> 1 </nivel>
+    <mod_vida> 10 </mod_vida>
+    <mod_mana> 1 </mod_mana>
+    <velocidad_movimiento> 0.02 </velocidad_movimiento>
+
+    <ataque_normal tipo="MELEE">
+      <rapido arco="BASICO">
+        <damage> 3.0 </damage>
+        <variacion> 2.0 </variacion>
+        <velocidad> 1.0 </velocidad>
+      </rapido>
+      <lento arco="BASICO">
+        <damage> 4.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 1.6 </velocidad>
+      </lento>
+    </ataque_normal>
+
+    <ataque_especial tipo="BUFFO" mana="5" cooldown="6.0">
+      <area>AREA_BIG_01</area>
+      <buffo id="MOVIMIENTO" duracion="4.5"> 0.5 </buffo>
+    </ataque_especial>
+
+  </cuerpo>
+  
+  
+  <!-- _______________________________________________________________________________________ -->
+  <cuerpo nombre="ARCHER_01">
+    
+    <nivel> 1 </nivel>
+    <mod_vida> 9 </mod_vida>
+    <mod_mana> 2 </mod_mana>
+    <velocidad_movimiento> 0.05 </velocidad_movimiento>
+
+    <ataque_normal tipo="RANGED">
+      <rapido proyectil="FLECHA" velocidad="1">
+        <damage> 1.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 0.3 </velocidad>
+      </rapido>
+      <lento proyectil="ONDA" velocidad="1.25">
+        <damage> 4.0 </damage>
+        <variacion> 6.0 </variacion>
+        <velocidad> 3.0 </velocidad>
+      </lento>
+    </ataque_normal>
+
+    <ataque_especial tipo="MELEE" mana="2" cooldown="0">
+      <damage> 4.0 </damage>
+      <variacion> 3.0 </variacion>
+      <velocidad> 0.8 </velocidad>
+    </ataque_especial>
+    
+  </cuerpo>
+ 
+  
+  <!-- _______________________________________________________________________________________ -->
+  <cuerpo nombre="MAGE_01">
+    
+    <nivel> 1 </nivel>
+    <mod_vida> 7 </mod_vida>
+    <mod_mana> 5 </mod_mana>
+    <velocidad_movimiento> 0.03 </velocidad_movimiento>
+
+    <ataque_normal tipo="RANGED">
+      <rapido proyectil="ONDA" velocidad="1.25">
+        <damage> 3.0 </damage>
+        <variacion> 4.0 </variacion>
+        <velocidad> 1.0 </velocidad>
+      </rapido>
+      <lento proyectil="ONDA" velocidad="0.1">
+        <damage> 5.0 </damage>
+        <variacion> 5.0 </variacion>
+        <velocidad> 3.0 </velocidad>
+      </lento>
+    </ataque_normal>
+
+    <ataque_especial tipo="RANGED" mana="2" cooldown="5.0">
+      <rapido proyectil="ONDA_GRANDE" velocidad="0.1">
+        <damage> 5.0 </damage>
+        <variacion> 7.0 </variacion>
+        <velocidad> 0.8 </velocidad>
+      </rapido>
+    </ataque_especial>
+    
+  </cuerpo>
+  
+  
+  <!-- _______________________________________________________________________________________ -->
+  <cuerpo nombre="WIZARD_01">
+    
+    <nivel> 1 </nivel>
+    <mod_vida> 9 </mod_vida>
+    <mod_mana> 2 </mod_mana>
+    <velocidad_movimiento> 0.05 </velocidad_movimiento>
+
+    <ataque_normal tipo="RANGED">
+      <rapido proyectil="FLECHA" velocidad="1">
+        <damage> 1.0 </damage>
+        <variacion> 3.0 </variacion>
+        <velocidad> 0.3 </velocidad>
+      </rapido>
+      <lento proyectil="ONDA" velocidad="1.25">
+        <damage> 4.0 </damage>
+        <variacion> 6.0 </variacion>
+        <velocidad> 3.0 </velocidad>
+      </lento>
+    </ataque_normal>
+
+    <ataque_especial tipo="BUFFO" mana="5" cooldown="6.0">
+      <area>AREA_BIG_01</area>
+      <buffo id="MOVIMIENTO" duracion="4.5"> 0.5 </buffo>
+    </ataque_especial>
+    
+  </cuerpo>
+
+</cuerposPlayer>

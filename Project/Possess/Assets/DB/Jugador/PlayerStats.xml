@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<players>
+  <player nombre="juasjuas">
+    <cuerpo>MAGE_01</cuerpo>
+    <nivel>1</nivel>
+    <equipo>
+      <item>ANILLO_</item>
+      <item>TALISMAN_</item>
+      <item>AMULETO_</item>
+    </equipo>
+  </player>
+  <player nombre="leer">
+    <cuerpo>BASICO</cuerpo>
+    <nivel>1</nivel>
+    <equipo>
+      <item>ANILLO_</item>
+      <item>TALISMAN_</item>
+      <item>AMULETO_</item>
+    </equipo>
+  </player>
+</players>
